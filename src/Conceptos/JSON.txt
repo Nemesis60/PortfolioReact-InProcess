@@ -1,4 +1,0 @@
-JavaScript Object Notation: 
-
-Es un formato para guardar e intercambiar información que
-cualquier persona pueda leer.
