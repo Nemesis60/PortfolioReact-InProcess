@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color: #20232a;
+    color: #fff;
+}
+
+
+.title {
+    color: #61dafb;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 2rem;
+}.title::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 0;
+    margin: 10px auto;
+    border-top: 20px solid #fff;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+}.title::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 0;
+    margin: 10px auto;
+    border-bottom: 20px solid #fff;
+    border-right: 24px solid transparent;
+    border-left: 24px solid transparent;
+}

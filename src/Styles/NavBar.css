@@ -1,0 +1,21 @@
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container nav{
+    width: 50%;
+    text-align: center;
+}
+
+.navbar-container nav ul{
+    list-style: none;
+}.navbar-container nav ul li {
+    margin-top: 10px;
+}.navbar-container nav ul li a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #fff;
+}

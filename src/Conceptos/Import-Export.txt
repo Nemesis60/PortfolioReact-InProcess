@@ -1,0 +1,19 @@
+Import:
+
+Permite que react use el componente componente que se exporto
+asi podremos utilizarlo allí.
+
+Export:
+
+Hacemos saber a react que queremos utilizar ese componente
+en otro lugar.
+
+exportación nombrada: Example:
+                    export function Project (){
+                    }
+Quiere decir que en ese componente habran varias exports
+y no solo uno
+
+import nombrada: Example:
+                import {elementos} from 'route';
+asi podremos elegir que vamos a llamar de el componente
